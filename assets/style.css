@@ -1,37 +1,41 @@
- 
- *{
+* {
     margin :0;
     padding: 0;
 }
+
 body {
     background-image: url("./img/background_main.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 } 
- .hero {
-            text-align: center;
-            padding: 60px 30px;
-            width: 70rem;
-            margin-left: 170px;
-        
-        }
-        .hero p {
-            color: #bbb;
-            font-size:x-large;
-            margin: 20px;
-            width: 55rem;
-            margin-left: 130px;
-        }
-        .titre{
-            background: linear-gradient(135deg, #667eea 0%, #b881ff 30%); 
-            -webkit-background-clip: text;/*  Applique le dégradé au texte */
-            width: 100%;
-            -webkit-text-fill-color: transparent;
-            text-align: center;
-            font-size: 5rem;
-            
-        }
+
+.hero {
+    text-align: center;
+    padding: 60px 30px;
+    width: 70rem;
+    margin-left: 170px;
+
+}
+
+.hero p {
+    color: #bbb;
+    font-size:x-large;
+    margin: 20px;
+    width: 55rem;
+    margin-left: 130px;
+}
+
+.titre{
+    background: linear-gradient(135deg, #667eea 0%, #b881ff 30%); 
+    -webkit-background-clip: text;/*  Applique le dégradé au texte */
+    width: 100%;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 5rem;
+    
+}
+
 nav{
     display: flex;
     background-color: #0A0A0F;
@@ -42,12 +46,14 @@ nav{
     padding-top: 20px;
     margin-top: 0;
 }
+
 .menu {
     display: flex;
     align-items: center; 
     gap: 20px;
 
 }
+
 .menu {
     display: flex;
     align-items: center;
@@ -62,6 +68,7 @@ a {
     text-decoration: none;
     color: azure;
 }
+
 #boutton_event {
     background: linear-gradient(to right , #0095ff , #bb00ff);
    height: 30px;
@@ -71,6 +78,7 @@ a {
    box-shadow: 0 0 35px #0095ff;
    
 }
+
 .boutton1 {
       background: linear-gradient(to right , #0095ff , #bb00ff);
    height: 30px;
@@ -81,6 +89,7 @@ a {
    border-radius: 10px;
    
 }
+
 .boutton2 {
     background-color : transparent;
     backdrop-filter: blur(10px);
@@ -96,15 +105,15 @@ a {
 }
 
 .logo{
-            font-size: small;
-            background: linear-gradient(120deg, #667eea , #b881ff); 
-            -webkit-background-clip: text;/*  Applique le dégradé au texte */
-            width: 20%;
-            -webkit-text-fill-color: transparent;
-            display: flex;
-            align-items: center;
-            padding-left: 100PX;
-    }
+    font-size: small;
+    background: linear-gradient(120deg, #667eea , #b881ff); 
+    -webkit-background-clip: text;/*  Applique le dégradé au texte */
+    width: 20%;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    padding-left: 100PX;
+}
 
 footer {
     background-color: #0A0A0F;
@@ -112,7 +121,8 @@ footer {
     border-top: 1px;
     border-color: #0095ff;
     border-top: 3px solid #0095ff;
-    }
+}
+
 .informations
 {
     display: flex;
@@ -120,29 +130,35 @@ footer {
     gap: 13rem;
     padding: 20px;
 }
+
 .informations p {
     width: 400px;
     color: #bbb;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .informations .information h2 {
     background: linear-gradient(120deg, #00cff0 , #b300ff); 
     -webkit-background-clip: text;/*  Applique le dégradé au texte */
     -webkit-text-fill-color: transparent;
 }
+
 .informations .information h3 {
     margin-bottom: 20px;
     color: white;
 }
+
 .informations .information ul li {
     list-style: none;
    color: #bbb;
 }
+
 .icon{
     display: flex;
     gap: 10px;
 }
+
 .contact {
     display: flex;
     gap: 20rem;
@@ -151,17 +167,21 @@ footer {
     color:#bbb;
     border-top: 3px ;
     border-top: 0.2px solid #0095ff;
- }
- .email
- {
+}
+
+.email
+{
     display: flex;
- }
- .phone{
+}
+ 
+.phone{
     display: flex;
- }
- .location {
+}
+
+.location {
     display: flex;
- }
+}
+
 .copy_right{
     display: flex;
     color: #bbb;
@@ -170,14 +190,19 @@ footer {
     margin-top: 40px;
     border-top: 0.2px solid #0095ff;
 }
+
 .copy2 {
     margin-right: 150px;
     list-style: none;
 
 }
+
 .information icons i {
     color: #0095ff;
 } 
+
 i {
     color: #0095ff;
 }
+
+
