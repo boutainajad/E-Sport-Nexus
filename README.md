@@ -6,12 +6,12 @@ Apprendre à créer et organiser un site web avec HTML, CSS
 
 -->Contenu du projet:
 
-index.html → Page d'accueil
-Games.html → Page des jeux
-Teams.html → Page des équipes
-Tournaments.html → Page des tournois
-Blog.html → Page d'education et engagement communautaire
-Contact.html → Page de contact
+- index.html → Page d'accueil
+- Games.html → Page des jeux
+- Teams.html → Page des équipes
+- Tournaments.html → Page des tournois
+- Blog.html → Page d'education et engagement communautaire
+- Contact.html → Page de contact
 
 ---> Ce que ce projet montre :
 
